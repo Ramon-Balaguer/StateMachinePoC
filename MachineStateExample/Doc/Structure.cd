@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MachineStateExample.PurchaseOrder">
+    <Position X="19.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAABAAAAAAASEAAAAAAAAQIAAAAAAAAAAA=</HashCode>
+      <FileName>PurchaseOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MachineStateExample.StateMachine">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAQEAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>StateMachine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MachineStateExample.PurchaseOrderStates.CreatedState">
+    <Position X="13.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQEAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>PurchaseOrderStates\CreatedState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MachineStateExample.PurchaseOrderStates.Errors">
+    <Position X="18" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PurchaseOrderStates\Errors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MachineStateExample.PurchaseOrderStates.SentState">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQEAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>PurchaseOrderStates\SentState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MachineStateExample.PurchaseOrderStates.WithErrorsState">
+    <Position X="15.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAQEAAAAAAIAQAAAAAAAAAAAA=</HashCode>
+      <FileName>PurchaseOrderStates\WithErrorsState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
